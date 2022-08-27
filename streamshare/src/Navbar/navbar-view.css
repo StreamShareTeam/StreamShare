@@ -1,0 +1,12 @@
+.navbar-container{
+background-color: black;
+height: 150px;
+display: flex;
+flex-direction: column;
+}
+
+.title{
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
