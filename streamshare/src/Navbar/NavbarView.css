@@ -1,0 +1,31 @@
+.navbar-container{
+background-color: black;
+height: 150px;
+display: flex;
+flex-direction: column;
+}
+
+.title{
+    color: antiquewhite;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+
+.currDate{
+    color: antiquewhite;
+    text-align: right;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+
+}

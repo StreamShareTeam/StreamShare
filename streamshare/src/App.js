@@ -1,18 +1,25 @@
 import './App.css';
 import React from 'react';
-import NavbarView from './Navbar/navbar-view';
+import NavbarView from './Navbar/NavbarView';
 import {Route, Routes} from "react-router-dom"
 
 function App() {
+   var componentArgs = [
+    {
+      title: "Stream Share",
+      date: new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) ,
+    }
+  ];
   return (
-    <>
-      <NavbarView/>
-      <div>
-        <Routes>
-          {/* <Route path='/' element={<Home/>}/>  */}
-        </Routes>
-      </div>
-    </>
+        <NavbarView
+        title={componentArgs[0].title}
+        date={componentArgs[0].date}
+        />
+      
+      
+
+      
+    
     
   );
 }
