@@ -1,0 +1,6 @@
+.stream-container{
+    background-color: gray;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}

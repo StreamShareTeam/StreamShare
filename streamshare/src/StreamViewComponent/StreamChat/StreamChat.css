@@ -1,0 +1,7 @@
+.chat-container{
+    justify-content: right;
+    display: flexbox;
+    flex-direction: column;
+    color: blanchedalmond;
+    position: sticky;
+}
