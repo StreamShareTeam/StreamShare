@@ -4,7 +4,7 @@ import './StreamChat.css'
 function StreamChat() {
   return (
     <div className='chat-container'>
-        StreamChat
+      
     </div>
   )
 }

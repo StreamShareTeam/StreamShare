@@ -1,6 +1,11 @@
+#root{
+    height: 100vh;
+}
 .stream-container{
-    background-color: gray;
-    height:500px;
-    display: flex;
-    flex-direction: column;
+ display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1A1A1D;
 }

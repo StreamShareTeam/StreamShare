@@ -17,7 +17,7 @@ function App() {
         title={componentArgs[0].title}
         date={componentArgs[0].date}
         />
-        <StreamView/>
+       <StreamView/>
       </> 
   );
 }
