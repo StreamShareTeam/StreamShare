@@ -13,6 +13,7 @@ function App() {
   ];
   return (
       <> {/* Start of jsx fragment */}
+      
         <NavbarView
         title={componentArgs[0].title}
         date={componentArgs[0].date}
